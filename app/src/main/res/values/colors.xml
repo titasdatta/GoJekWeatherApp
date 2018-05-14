@@ -6,4 +6,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="black_text">#FF2A2A2A</color>
     <color name="divider_color">#FFF5F5F5</color>
+    <color name="main_screen_bg">#FFF5F6F7</color>
+    <color name="error_screen_bg">#FFE85959</color>
+    <color name="retry_btn_bg">#FF4A4A4A</color>
+    <color name="location_text_color">#FF556799</color>
 </resources>

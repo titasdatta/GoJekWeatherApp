@@ -3,5 +3,14 @@
     <dimen name="padding_fifteen">23dp</dimen>
     <dimen name="text_size_sixteen">24sp</dimen>
     <dimen name="margin_thirty_two">48dp</dimen>
-    <dimen name="margin_twenty_four">24dp</dimen>
+    <dimen name="margin_twenty_four">36dp</dimen>
+    <dimen name="progress_size">144dp</dimen>
+    <dimen name="padding_thirty">45dp</dimen>
+    <dimen name="error_text_size">81sp</dimen>
+    <dimen name="error_button_top_margin">66dp</dimen>
+    <dimen name="current_temp_margin_top">84dp</dimen>
+    <dimen name="current_temp_text_size">144sp</dimen>
+    <dimen name="margin_sixteen">24dp</dimen>
+    <dimen name="location_text_size">54sp</dimen>
+    <dimen name="forecast_list_margin_top">132dp</dimen>
 </resources>

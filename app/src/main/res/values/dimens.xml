@@ -4,4 +4,13 @@
     <dimen name="text_size_sixteen">16sp</dimen>
     <dimen name="margin_thirty_two">32dp</dimen>
     <dimen name="margin_twenty_four">24dp</dimen>
+    <dimen name="progress_size">96dp</dimen>
+    <dimen name="padding_thirty">30dp</dimen>
+    <dimen name="error_text_size">54sp</dimen>
+    <dimen name="error_button_top_margin">44dp</dimen>
+    <dimen name="current_temp_margin_top">56dp</dimen>
+    <dimen name="current_temp_text_size">96sp</dimen>
+    <dimen name="margin_sixteen">16dp</dimen>
+    <dimen name="location_text_size">36sp</dimen>
+    <dimen name="forecast_list_margin_top">88dp</dimen>
 </resources>
