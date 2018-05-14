@@ -30,7 +30,7 @@ class Utils @Inject constructor(private val context: Context) {
         val calendar = Calendar.getInstance()
         calendar.time = date
         val dayOrdinal =  calendar.get(Calendar.DAY_OF_WEEK)
-        return Days.values()[dayOrdinal].day
+        return Days.values()[dayOrdinal-1].day
     }
 
     fun isNetworkAvailable(): Boolean {

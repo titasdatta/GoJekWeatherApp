@@ -4,7 +4,7 @@
     <dimen name="text_size_sixteen">16sp</dimen>
     <dimen name="margin_thirty_two">32dp</dimen>
     <dimen name="margin_twenty_four">24dp</dimen>
-    <dimen name="progress_size">96dp</dimen>
+    <dimen name="progress_size">100dp</dimen>
     <dimen name="padding_thirty">30dp</dimen>
     <dimen name="error_text_size">54sp</dimen>
     <dimen name="error_button_top_margin">44dp</dimen>

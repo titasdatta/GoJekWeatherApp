@@ -18,9 +18,9 @@ class ForecastListAdapter @Inject constructor(private val forecastList: ArrayLis
                                               val utils: Utils): RecyclerView.Adapter<ForecastListAdapter.ForecastListViewHolder>() {
 
     init {
-        if(forecastList != null && forecastList.size > 1){
-            forecastList.removeAt(0)
-        }
+//        if(forecastList != null && forecastList.size > 1){
+//            forecastList.removeAt(0)
+//        }
     }
 
     override fun onBindViewHolder(holder: ForecastListViewHolder?, position: Int) {
@@ -44,7 +44,7 @@ class ForecastListAdapter @Inject constructor(private val forecastList: ArrayLis
         fun bind(forecast: WeatherForecast, utils: Utils){
             this.forecast = forecast
             val avg_temp = (forecast.day.minTemp+forecast.day.maxTemp)/2
-            val avg_temp_text = "${avg_temp}"+"°C"
+            val avg_temp_text = "${avg_temp.toInt()}"+"°C"
             mView.temp.text = Html.fromHtml(avg_temp_text)
             mView.day.text = utils.getFormattedDayFor(forecast.forecastDate)
         }

@@ -18,7 +18,7 @@ class ForecastListViewModel @Inject constructor(private val repository: WeatherR
         forecastData = repository.getWeatherObservable()
     }
 
-    fun getWeather(queryString: String) = repository.getWeather(Constants.API_KEY, queryString, 4)
+    fun getWeather(queryString: String) = repository.getWeather(Constants.API_KEY, queryString, 5)
 
     fun getWeatherObservable(): LiveData<ForecastWrapper> {
         return forecastData

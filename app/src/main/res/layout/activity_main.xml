@@ -17,48 +17,55 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:indeterminate="true"
         android:indeterminateDrawable="@drawable/circular_loader"
-        android:visibility="gone"/>
+        android:visibility="visible"/>
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/error_screen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="match_parent"
         android:paddingLeft="@dimen/padding_thirty"
         android:paddingRight="@dimen/padding_thirty"
-        android:visibility="gone">
+        android:visibility="gone"
+        android:background="@color/error_screen_bg">
 
-        <TextView
-            android:id="@+id/error_text"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="@dimen/error_text_size"
-            android:fontFamily="@font/roboto_thin"
-            android:gravity="center"
-            tools:text="Something went wrong at our end!" />
-
-        <Button
-            android:id="@+id/retry_btn"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
+            android:orientation="vertical"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/error_text"
-            android:layout_marginTop="@dimen/error_button_top_margin"
-            android:textColor="@color/white"
-            android:background="@drawable/retry_rounded_bg"
-            android:text="Retry"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:id="@+id/error_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/error_text_size"
+                android:fontFamily="@font/roboto_thin"
+                android:gravity="center"
+                android:text="Something went wrong at our end!" />
+
+            <Button
+                android:id="@+id/retry_btn"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/error_button_top_margin"
+                android:textColor="@color/white"
+                android:background="@drawable/retry_rounded_bg"
+                android:layout_gravity="center_horizontal"
+                android:text="Retry"/>
+
+        </LinearLayout>
 
     </android.support.constraint.ConstraintLayout>
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/success_screen"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/current_temp"
