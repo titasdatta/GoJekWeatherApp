@@ -14,8 +14,23 @@ import javax.inject.Singleton
  */
 @Singleton
 class Utils @Inject constructor(private val context: Context) {
+    enum class Days(val day: String){
+        SUNDAY("Sunday"), MONDAY("Monday"), TUESDAY("Tuesday"),
+        WEDNESDAY("Wednesday"), THURSDAY("Thursday"), FRIDAY("Friday"),
+        SATURDAY("Saturday")
+    }
+
     val locationManager: LocationManager by lazy {
         context.getSystemService(Context.LOCATION_SERVICE) as LocationManager
+    }
+
+    fun getFormattedDayFor(dateString: String): String{
+        val simpleDateFormat = SimpleDateFormat("yyyy-MM-dd")
+        val date = simpleDateFormat.parse(dateString)
+        val calendar = Calendar.getInstance()
+        calendar.time = date
+        val dayOrdinal =  calendar.get(Calendar.DAY_OF_WEEK)
+        return Days.values()[dayOrdinal].day
     }
 
     fun isNetworkAvailable(): Boolean {
