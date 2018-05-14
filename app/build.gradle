@@ -34,6 +34,11 @@ configurations.all {
 
 dependencies {
     def lifecycle_version="1.1.1"
+    def junit_version = '4.12'
+    def core_testing_version = '1.0.0'
+    def mockito_version = '2.11.0'
+    def runner_version = '1.0.1'
+    def okhttp_version = '3.3.0'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
@@ -52,9 +57,19 @@ dependencies {
     kapt 'com.google.dagger:dagger-android-processor:2.13'
     kapt 'com.google.dagger:dagger-compiler:2.13'
 
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.0', {
+    //tests
+    testImplementation "junit:junit:$junit_version"
+    testImplementation "org.mockito:mockito-core:$mockito_version"
+    testImplementation "android.arch.core:core-testing:$core_testing_version"
+    testImplementation "com.squareup.okhttp3:mockwebserver:$okhttp_version"
+    testImplementation "com.squareup.okhttp3:mockwebserver:3.6.0"
+
+    androidTestImplementation "com.squareup.okhttp3:mockwebserver:$okhttp_version"
+    androidTestImplementation "android.arch.core:core-testing:$core_testing_version"
+    androidTestImplementation "org.mockito:mockito-android:$mockito_version"
+    androidTestImplementation "com.android.support.test:runner:$runner_version"
+    androidTestImplementation 'com.android.support.test:rules:1.0.1'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:3.0.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
 }

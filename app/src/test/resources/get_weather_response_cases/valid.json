@@ -1,0 +1,259 @@
+{
+  "location": {
+    "name": "Bengaluru",
+    "region": "Karnataka",
+    "country": "India",
+    "lat": 12.98,
+    "lon": 77.58,
+    "tz_id": "Asia/Kolkata",
+    "localtime_epoch": 1526215909,
+    "localtime": "2018-05-13 18:21"
+  },
+  "current": {
+    "last_updated_epoch": 1526215539,
+    "last_updated": "2018-05-13 18:15",
+    "temp_c": 22.0,
+    "temp_f": 71.6,
+    "is_day": 1,
+    "condition": {
+      "text": "Moderate or heavy rain with thunder",
+      "icon": "//cdn.apixu.com/weather/64x64/day/389.png",
+      "code": 1276
+    },
+    "wind_mph": 16.1,
+    "wind_kph": 25.9,
+    "wind_degree": 60,
+    "wind_dir": "ENE",
+    "pressure_mb": 1013.0,
+    "pressure_in": 30.4,
+    "precip_mm": 0.0,
+    "precip_in": 0.0,
+    "humidity": 100,
+    "cloud": 75,
+    "feelslike_c": 24.7,
+    "feelslike_f": 76.4,
+    "vis_km": 5.0,
+    "vis_miles": 3.0
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2018-05-13",
+        "date_epoch": 1526169600,
+        "day": {
+          "maxtemp_c": 32.1,
+          "maxtemp_f": 89.8,
+          "mintemp_c": 25.4,
+          "mintemp_f": 77.7,
+          "avgtemp_c": 27.9,
+          "avgtemp_f": 82.2,
+          "maxwind_mph": 8.9,
+          "maxwind_kph": 14.4,
+          "totalprecip_mm": 15.6,
+          "totalprecip_in": 0.61,
+          "avgvis_km": 15.8,
+          "avgvis_miles": 9.0,
+          "avghumidity": 57.0,
+          "condition": {
+            "text": "Moderate or heavy rain shower",
+            "icon": "//cdn.apixu.com/weather/64x64/day/356.png",
+            "code": 1243
+          },
+          "uv": 12.2
+        },
+        "astro": {
+          "sunrise": "05:55 AM",
+          "sunset": "06:37 PM",
+          "moonrise": "04:11 AM",
+          "moonset": "04:43 PM"
+        }
+      },
+      {
+        "date": "2018-05-14",
+        "date_epoch": 1526256000,
+        "day": {
+          "maxtemp_c": 32.2,
+          "maxtemp_f": 90.0,
+          "mintemp_c": 24.7,
+          "mintemp_f": 76.5,
+          "avgtemp_c": 28.7,
+          "avgtemp_f": 83.6,
+          "maxwind_mph": 7.4,
+          "maxwind_kph": 11.9,
+          "totalprecip_mm": 0.1,
+          "totalprecip_in": 0.0,
+          "avgvis_km": 19.4,
+          "avgvis_miles": 12.0,
+          "avghumidity": 55.0,
+          "condition": {
+            "text": "Patchy rain possible",
+            "icon": "//cdn.apixu.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 12.8
+        },
+        "astro": {
+          "sunrise": "05:55 AM",
+          "sunset": "06:37 PM",
+          "moonrise": "04:56 AM",
+          "moonset": "05:39 PM"
+        }
+      },
+      {
+        "date": "2018-05-15",
+        "date_epoch": 1526342400,
+        "day": {
+          "maxtemp_c": 33.0,
+          "maxtemp_f": 91.4,
+          "mintemp_c": 25.0,
+          "mintemp_f": 77.0,
+          "avgtemp_c": 29.0,
+          "avgtemp_f": 84.2,
+          "maxwind_mph": 8.7,
+          "maxwind_kph": 14.0,
+          "totalprecip_mm": 1.2,
+          "totalprecip_in": 0.05,
+          "avgvis_km": 19.0,
+          "avgvis_miles": 11.0,
+          "avghumidity": 53.0,
+          "condition": {
+            "text": "Heavy rain at times",
+            "icon": "//cdn.apixu.com/weather/64x64/day/305.png",
+            "code": 1192
+          },
+          "uv": 13.6
+        },
+        "astro": {
+          "sunrise": "05:55 AM",
+          "sunset": "06:38 PM",
+          "moonrise": "05:45 AM",
+          "moonset": "06:36 PM"
+        }
+      },
+      {
+        "date": "2018-05-16",
+        "date_epoch": 1526428800,
+        "day": {
+          "maxtemp_c": 34.5,
+          "maxtemp_f": 94.1,
+          "mintemp_c": 25.1,
+          "mintemp_f": 77.2,
+          "avgtemp_c": 29.8,
+          "avgtemp_f": 85.7,
+          "maxwind_mph": 7.6,
+          "maxwind_kph": 12.2,
+          "totalprecip_mm": 0.4,
+          "totalprecip_in": 0.02,
+          "avgvis_km": 18.5,
+          "avgvis_miles": 11.0,
+          "avghumidity": 51.0,
+          "condition": {
+            "text": "Patchy rain possible",
+            "icon": "//cdn.apixu.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 6.9
+        },
+        "astro": {
+          "sunrise": "05:54 AM",
+          "sunset": "06:38 PM",
+          "moonrise": "06:36 AM",
+          "moonset": "07:38 PM"
+        }
+      },
+      {
+        "date": "2018-05-17",
+        "date_epoch": 1526515200,
+        "day": {
+          "maxtemp_c": 32.4,
+          "maxtemp_f": 90.3,
+          "mintemp_c": 24.5,
+          "mintemp_f": 76.1,
+          "avgtemp_c": 28.6,
+          "avgtemp_f": 83.4,
+          "maxwind_mph": 9.2,
+          "maxwind_kph": 14.8,
+          "totalprecip_mm": 0.5,
+          "totalprecip_in": 0.02,
+          "avgvis_km": 18.8,
+          "avgvis_miles": 11.0,
+          "avghumidity": 55.0,
+          "condition": {
+            "text": "Moderate rain at times",
+            "icon": "//cdn.apixu.com/weather/64x64/day/299.png",
+            "code": 1186
+          },
+          "uv": 13.8
+        },
+        "astro": {
+          "sunrise": "05:54 AM",
+          "sunset": "06:38 PM",
+          "moonrise": "07:32 AM",
+          "moonset": "08:40 PM"
+        }
+      },
+      {
+        "date": "2018-05-18",
+        "date_epoch": 1526601600,
+        "day": {
+          "maxtemp_c": 35.1,
+          "maxtemp_f": 95.2,
+          "mintemp_c": 25.3,
+          "mintemp_f": 77.5,
+          "avgtemp_c": 28.9,
+          "avgtemp_f": 84.1,
+          "maxwind_mph": 11.2,
+          "maxwind_kph": 18.0,
+          "totalprecip_mm": 0.8,
+          "totalprecip_in": 0.03,
+          "avgvis_km": 19.0,
+          "avgvis_miles": 11.0,
+          "avghumidity": 57.0,
+          "condition": {
+            "text": "Moderate rain at times",
+            "icon": "//cdn.apixu.com/weather/64x64/day/299.png",
+            "code": 1186
+          },
+          "uv": 39960.0
+        },
+        "astro": {
+          "sunrise": "05:54 AM",
+          "sunset": "06:38 PM",
+          "moonrise": "08:31 AM",
+          "moonset": "09:42 PM"
+        }
+      },
+      {
+        "date": "2018-05-19",
+        "date_epoch": 1526688000,
+        "day": {
+          "maxtemp_c": 32.4,
+          "maxtemp_f": 90.3,
+          "mintemp_c": 24.4,
+          "mintemp_f": 75.9,
+          "avgtemp_c": 28.5,
+          "avgtemp_f": 83.3,
+          "maxwind_mph": 12.1,
+          "maxwind_kph": 19.4,
+          "totalprecip_mm": 0.1,
+          "totalprecip_in": 0.0,
+          "avgvis_km": 18.8,
+          "avgvis_miles": 11.0,
+          "avghumidity": 57.0,
+          "condition": {
+            "text": "Patchy rain possible",
+            "icon": "//cdn.apixu.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 39960.0
+        },
+        "astro": {
+          "sunrise": "05:54 AM",
+          "sunset": "06:39 PM",
+          "moonrise": "09:32 AM",
+          "moonset": "10:41 PM"
+        }
+      }
+    ]
+  }
+}
